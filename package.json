@@ -1,0 +1,33 @@
+{
+  "name": "gitstats",
+  "version": "0.1.0",
+  "description": "Zero-dependency CLI to summarize a git repository: commits, authors, file churn, activity heatmap",
+  "type": "module",
+  "bin": {
+    "gitstats": "./bin/gitstats.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "git",
+    "statistics",
+    "cli",
+    "repository",
+    "churn",
+    "nodejs",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayhanlimon/gitstats.git"
+  }
+}
